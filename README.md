@@ -10,3 +10,7 @@ frequency.
 As part of the validation process the cumulative FFT (time integrated) is built up for the entire 8192 byte snapshot.
 Since the signal does not decay significantly over the duration of the snapshot (even with the noise removed) further
 work is required.
+
+Some example time series data is included for the anaylsis, simply change the .m file to point to the data file
+and run the program. This is quite basic as nothing further can be done until it is clear the data is being read in 
+correctly.
